@@ -11,9 +11,9 @@ app.secret_key = 'chattrace-secret-2024'
 # Store data in memory during session
 chat_data = {}
 
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = '/tmp/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 @app.route('/')
 def home():
