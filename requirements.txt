@@ -3,6 +3,5 @@ pandas
 scikit-learn
 gunicorn
 numpy
-onnxruntime
-transformers
-tokenizers
+sentence-transformers
+torch --index-url https://download.pytorch.org/whl/cpu

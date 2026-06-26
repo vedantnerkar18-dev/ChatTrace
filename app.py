@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 from parser import parse_whatsapp_chat
-from searcher import build_index, search
+from searcher import build_index, search, model
 
 app = Flask(__name__)
 app.secret_key = 'chattrace-secret-2024'
