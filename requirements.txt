@@ -4,4 +4,3 @@ scikit-learn
 gunicorn
 numpy
 sentence-transformers
-torch --index-url https://download.pytorch.org/whl/cpu
