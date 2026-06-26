@@ -5,7 +5,7 @@ import pandas as pd
 
 # Load AI model once when app starts
 print("🧠 Loading AI model...")
-model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+model = SentenceTransformer('all-MiniLM-L6-v2')
 print("✅ AI model ready!")
 
 
